@@ -16,8 +16,7 @@ Generic empty Class Build
 */ 
 
 $myClass = new stdClass;
-$myClass->name = "John Doe";
-echo $myClass->name."\n\n";
+$myClass->name = "John Do
 
 $myClass->names = ["Don","Sam","Marcus","Sheng"];
 foreach ($myClass->names as $name) {
