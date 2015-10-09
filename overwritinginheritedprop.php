@@ -39,10 +39,17 @@ class MainClass
 
 class SubClass extends MainClass
 {
+  public function __construct(){
+
+    echo "SubClass overwriting __construct method" . "\n\n";
+
+  }
+
   public function subClassMethod()
   {
       echo "From a new method in " . __CLASS__ . "\n \n";
   }
+
 }
  
 // Create a new object

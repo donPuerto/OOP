@@ -1,5 +1,12 @@
 <?php
- 
+
+/*
+
+Note:
+parent::__construct(); -> will call the parent method and not overwriting the subclass method
+
+*/
+
 class MainClass
 {
 
@@ -39,10 +46,18 @@ class MainClass
 
 class SubClass extends MainClass
 {
+  public function __construct(){
+
+    parent::__construct();
+    echo "SubClass instead of overwriting, im calling using parent:: method" . "\n\n";
+
+  }
+
   public function subClassMethod()
   {
       echo "From a new method in " . __CLASS__ . "\n \n";
   }
+
 }
  
 // Create a new object
