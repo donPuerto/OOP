@@ -1,3 +1,3 @@
 <?php
 
-require_once "model/user.php";
+require_once __DIR__ . "/../vendor/autoload.php";

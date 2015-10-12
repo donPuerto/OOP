@@ -1,7 +1,8 @@
 {
 	"autoload":{
-		"classmap":[
-			"app/model"
-		]
+		"psr-4":{
+			"donpuerto\\" : "app/donpuerto"
+		}
+	
 	}
 }

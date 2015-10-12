@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'donpuerto\\filters\\Filter' => $baseDir . '/app/donpuerto/Filters/filter.php',
+    'donpuerto\\repositories\\UserRepository' => $baseDir . '/app/donpuerto/repositories/userRepository.php',
 );
